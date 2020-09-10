@@ -1,0 +1,31 @@
+.navbar {
+  font-size: 24px;
+}
+
+.card {
+  display: inline-block;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.honey {
+  background-color: #FCE8BA;
+}
+
+.mango {
+  background-color: #FABE57
+}
+
+.lightning {
+  background-color: #F5AB32
+}
+
+u {
+  font-family: 'Montserrat', sans-serif;
+}
