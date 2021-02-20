@@ -1,6 +1,63 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head><meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>GCD website</title>
+	<!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>  
+    <!--w3schools CSS-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!--fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+ <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>  
+    <!--w3schools CSS-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!--fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <!-- import the webpage's javascript file -->
+	<script src="/script.js" defer></script>
+	
 <style>
 
 .d-flex {
@@ -21,90 +78,168 @@
 </head>
 <body>
 
+	<!--- Nav Bar-->
+	<div>
+		<nav class="navbar navbar-expand-lg bg-dark">
+		  <a class="navbar-brand" href="#"></a>
+		  <button
+			class="navbar-toggler"
+			type="button"
+			data-toggle="collapse"
+			data-target="#navbarNavDropdown"
+			aria-controls="navbarNavDropdown"
+			aria-expanded="false"
+			aria-label="Toggle navigation"
+		  >
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div
+			class="collapse navbar-collapse d-flex justify-content-between"
+			id="navbarNavDropdown"
+		  >
+			<ul class="navbar-nav">
+			  <li class="nav-item active">
+				<a class="nav-link text-white px-5" href="/index.html"
+				  >Home</a
+				>
+			  </li>
+			  <li class="nav-item active">
+				<a class="nav-link text-white px-5" href="/about.html"
+				  >About</a
+				>
+			  </li>
+			  <li class="nav-item active">
+				<a class="nav-link text-primary px-5" href="/contacts.html"
+				  >Contacts</a
+				>
+			  </li>
+			  <li class="nav-item active">
+				<a class="nav-link text-white px-5" href="/FAQ.html"
+				  >FAQ <span class="sr-only">(current)</span></a
+				>
+			  </li>
+			</ul>
+		  </div>
+		</nav>
+		</div>
+	  <!--Navbar end-->
+
+<!--Coaches' banner-->
+	<div class= "container-fluid">
 <div class="banner" style="text-align:center; background-color: #B48FD9; ">
 	<div class="banner-content">
 	<h1>2020-2021 Coaching Staff</h1>
+</div>
+</div>
 
-<div class="d-flex p-2 bd-highlight">
+<!--Coaches' rows-->
+<div class= "row d-flex p-2 p bd-highlight">
+<div class= "col">
   <div class="p-2 bd-highlight"> <b>Head Coach</b> 
   	<br>David Situ
-  	<br> <img src= "David2.png" width="375" height="250" alt=""> 
-
- 	<br> <b>Facebook</b>: David Situ
+	  <br> <img src= "David2.png" width="375" height="250" alt=""> 
+	 <br> <b>Facebook</b>: David Situ
+	</div>
 </div>
-  <div class="p-2 bd-highlight"> <b>Coach</b> 
+<div class="col">
+  <div class= "p-2 bd-highlight"> <b>Coach</b> 
   	<br>Ivy Lin
   	<br> <img src= "Ivy.jpg" width="375" height="250" alt=""> 
- 	<br> <b>Facebook</b>: Ivy Lin
+	 <br> <b>Facebook</b>: Ivy Lin
 </div>
+</div>
+<div class="col">
   <div class="p-2 bd-highlight"> <b>Coach</b> 
   	<br>Drake Lowe
   	<br> <img src= "Drake.jpg" width="375" height="250" alt=""> 
- 	<br> <b>Facebook</b>: Drake Lowe
+	 <br> <b>Facebook</b>: Drake Lowe
+	</div>
 </div>
+<div class="col">
   <div class="p-2 bd-highlight"> <b>Coach</b> 
   	<br>Daven Ng
   	<br> <img src= "Daven.jpg" width="375" height="250" alt=""> 
- 	<br> <b>Facebook</b>: Daven Ng
+	 <br> <b>Facebook</b>: Daven Ng
+</div>
  </div> 
  </div>
-
-<div class="banner" style="grid-column-gap: 5px; text-align:center; background-color: #B48FD9; ">
+</div>
+<!--Officer Banner-->
+<div class= "container-fluid">
+<div class="banner" style="text-align:center; background-color: #B48FD9; ">
 	<div class="banner-content">
 	<h1>2020-2021 Officers</h1>
-
-<div class="d-flex p-3 bd-highlight">
+</div>
+</div>
+<!--First Officer's row-->
+	<div class= "row d-flex p-2 bd-highlight">
+<div class= "col">
   <div class="p-2 bd-highlight"> <b>Manager</b> 
   	<br>Jeffrey Zhang
   	<br> <img src= "Jeffrey.JPG" width="375" height="250" alt=""> 
- 	<br> <b>Facebook</b>: Jeffrey Zhang
+	 <br> <b>Facebook</b>: Jeffrey Zhang
+</div>
  </div>
+ <div class= "col">
   <div class="p-2 bd-highlight"> <b>Operations Manager</b> 
   	<br>Vicky Wu
   	<br> <img src= "Vicky.jpg" width="375" height="250" alt="">
  	<br> <b>Facebook</b>: Vicky Wu
  </div>
+</div>
+ <div class= "col">
   <div class="p-2 bd-highlight"> <b>Female Captain</b> 
   	<br>Mandy Zhu
   	<br> <img src= "Mandy(1).jpg" width="375" height="250" alt=""> 
  	<br> <b>Facebook</b>: Mandy Zhu
  </div>
+</div>
+<div class= "col">
   <div class="p-2 bd-highlight"> <b>Female Captain</b> 
   	<br>Mandy Yu
 	  <br> <img src= "Mandy Yu.jpg" width="375" height="250" alt=""> 
  	<br> <b>Facebook</b>: Mandy Yu
 </div> 
  </div>
- <div class="d-flex p-3 bd-highlight">
+</div>
+ <!--Second Officcer's row-->
+ <div class= "row d-flex p-2 bd-highlight">
+ 	<div class= "col">
   <div class="order-3 p-2">  <b>Male Captain</b>
   	<br>Zurhi Chicuata
   	<br> <img src= "Zurhi(1).jpg" width="375" height="250" alt="">
   	<br> <b>Facebook</b>: Zurhi Chicuata
  </div>
+</div>
+<div class= "col">
  <div class="p-2 bd-highlight"> <b>Male Captain</b> 
   	<br>Dylan Che
 	  <br> <img src= "Dylanedit.jpg" width="375" height="250" alt="" >
 	  
  	<br> <b>Facebook</b>: Dylan Che
  </div>
+</div>
+<div class= "col">
   <div class="p-2 bd-highlight"> <b>Fundraising Chair</b> 
   	<br>Eric Mei
   	<br> <img src= "Eric_Mei.jpg" width="375" height="250" alt=""> 
  	<br> <b>Facebook</b>: Eric Mei
  </div>
+</div>
+<div class= "col">
   <div class="p-2 bd-highlight"> <b>Creative Director</b> 
   	<br>Kai Bloom
   	<br> <img src= "Kai(1).jpg" width="375" height="250" alt=""> 
  	<br> <b>Facebook</b>: Kai Bloom
  </div> 
  </div>
+</div>
 
 
 
+</div>
  </style>
 </head>
 <body>
 </body>
-</div>
-</div>
-</div></div>
+
